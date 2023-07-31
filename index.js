@@ -1,4 +1,4 @@
-console.log('jsdelivr test')
+console.log('jsdelivr yooy')
 
 // Get all the bundle buttons
   const bundleButtons = document.querySelectorAll('.bundle-button');
@@ -53,8 +53,8 @@ console.log('jsdelivr test')
   document.addEventListener('DOMContentLoaded', loadSelectedOption);
   
   
- /// Function to show or hide the selected item banner based on the selected option
-  function updateSelectedItemBanner() {
+ // Function to show or hide the selected item banner based on the selected option
+ function updateSelectedItemBanner() {
     const selectedOption = localStorage.getItem('selectedOption');
     const selectedItemPopup = document.getElementById('selected-item-popup');
     const selectedItemText = document.querySelector('#selected-item-text');
